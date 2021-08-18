@@ -108,8 +108,4 @@
     #desc {
         margin-right: 50%;
     }
-
-    #skills {
-
-    }
 </style>
