@@ -1,0 +1,80 @@
+{
+    "builds": [
+        {
+            "persona":  "Lucifer",
+            "role":     "MT-Almighty",
+            "trait":    "Mighty Gaze",
+            "skills":   [
+                "Morning Star",
+                "Almighty Boost",
+                "Almighty Amp",
+                "Magic Ability",
+                "Victory Cry",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Bless"
+            ],
+            "reasons":  [
+                ["Mighty Gaze is used since Morning Star targets all enemies."],
+                ["Morning Star is one of the strongest Almighty attacks that targets all enemies."],
+                ["Almighty Boost, Almighty Amp, and Magic Ability are standard damage modifiers for damage-dealing Personas."],
+                ["Victory Cry since it's expected to one-shot all enemies, so the turn ends on Lucifer."],
+                ["Insta-Heal, Firm Stance, and Drain Bless are defensive skills. ",
+                    "However, for this specific role, they are open to anything else since Lucifer is only used for fighting mob enemies, not bosses."]
+            ]
+        },
+
+        {
+            "persona":  "Satanael",
+            "role":     "ST-Almighty",
+            "trait":    "Intense Focus",
+            "skills":   [
+                "Severe Viper",
+                "Almighty Boost",
+                "Almighty Amp",
+                "Magic Ability",
+                "Tyrant's Mind",
+                "Spell Master",
+                "Insta-Heal",
+                "Firm Stance"
+            ],
+            "reasons":  [
+                ["Intense Focus is used since Black Viper targets one enemy.",
+                    "Pagan Allure is capped, so Intense Focus is chosen over it."],
+                ["Black Viper is the strongest Almighty attack that targets one enemy."],
+                ["Almighty Boost, Almighty Amp, and Magic Ability are standard damage modifiers for damage-dealing Personas."],
+                ["Tyrant's Mind is Satanael's unique skill, giving him 1.25x damage that stacks and is not capped."],
+                ["Spell Master is chosen because this build is mostly used against bosses, who are usually alone."],
+                ["Insta-Heal and Firm Stance are defensive skills.",
+                    "Compared to Lucifer's build, this is not open to change.",
+                    "Boss encounters have ailments and large damage.",
+                    "I chose Firm Stance over Ali Dance because I don't like leaving it to chance.",
+                    "I chose Insta-Heal over Fortify Spirit because I don't like leaving it to chance."]
+            ]  
+        },
+
+        {
+            "persona":  "Alilat",
+            "role":     "Ailments",
+            "trait":    "Gloomy Child",
+            "skills":   [
+                "Morning Star",
+                "Almighty Boost",
+                "Almighty Amp",
+                "Magic Ability",
+                "Victory Cry",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Bless"
+            ],
+            "reasons":  [
+                ["Mighty Gaze is used since Morning Star targets all enemies."],
+                ["Morning Star is one of the strongest Almighty attacks that targets all enemies."],
+                ["Almighty Boost, Almighty Amp, and Magic Ability are standard damage modifiers for damage-dealing Personas."],
+                ["Victory Cry since it's expected to one-shot all enemies, so the turn ends on Lucifer."],
+                ["Insta-Heal, Firm Stance, and Drain Bless are defensive skills. ",
+                    "However, for this specific role, they are open to anything else since Lucifer is only used for fighting mob enemies, not bosses."]
+            ]
+        }
+    ]
+}
