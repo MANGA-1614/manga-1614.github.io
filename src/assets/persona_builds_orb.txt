@@ -1,0 +1,324 @@
+Considerations
+    With the Omnipotent Orb, we don't care about the Elemental weaknesses.
+    Due to this, we prioritze innate Null Gun, then Null Phys, or higher.
+    Personas that fulfill this requirement:
+        a. Null Phys AND Null Gun, or higher:
+            1. Abaddon      - Curse
+            2. Arahabaki    - Gun Damage
+            3. Alilat       - Ailments
+            4. Fafnir       - Buffer/Debuffer
+            5. Girimehkala  - Nuke
+            6. Rangda       - Starter
+            7. Shiki-Ouji   - Psy
+            8. Lucifer      - MT-Almighty
+        b. Null Gun or higher:
+            9.  Kali        - Fire
+            10. Kin-Ki      - Gun Critical
+            11. Makami
+            12. Mara        - Elec
+            13. Atavaka
+            14. Berith
+            15. Dakini
+            16. Inugami     - Bless
+            17. Kaiwan      - Wind
+            18. Yaksini     - Ice
+    Readers are expected to already know the No_Orb page?
+
+Roles
+    1.  MT-Almighty         - Lucifer
+    2.  ST-Almighty         - Satanael
+    3.  Ailments            - Alilat
+    4.  Physical Damage     - Yoshitsune
+    5.  Gun Damage          - Arahabaki
+    6.  Gun Critical        - Kin-Ki
+    7.  Fire                - Kali
+    8.  Ice                 - Yaksini
+    9.  Elec                - Mara
+    10. Wind                - Kaiwan
+    11. Psy                 - Shiki-Ouji
+    12. Nuke                - Girimehkala
+    13. Bless               - Inugami
+    14. Curse               - Abaddon
+    15. Buffer/Debuffer     - Fafnir
+    16. Starter             - Rangda
+    17. Healer              - Maria
+
+1. Multi-Target Almighty - Lucifer
+    Trait: Mighty Gaze
+    1. Morning Star
+    2. Almighty Boost
+    3. Almighty Amp
+    4. Magic Ability
+    5. Victory Cry
+    6. Fortify Spirit
+    7. Insta-Heal
+    8. Firm Stance
+    
+    With the Omnipotent Orb, Lucifer no longer has a weakness.
+    Replace Drain Bless with Fortify Spirit.
+        Fortify Spirit gives a 30% evade from ailments if facing an enemy with the same luck.
+            In the best scenearios, it is better to avoid than actually get hit when possible.
+
+2. Single-Target Almighty - Satanael
+    Trait: Intense Focus
+    1. Black Viper
+    2. Almighty Boost
+    3. Almighty Amp
+    4. Magic Ability
+    5. Tyrant's Mind
+    6. Spell Master
+    7. Insta-Heal
+    8. Firm Stance
+
+    No change.
+
+3. Ailments - Alilat
+    Trait: Gloomy Child
+    1. Wage War
+    2. Lullaby
+    3. Ailment Boost
+    4. Ambient Aid
+    5. Spell Master (flex)
+    6. Fortify Spirit
+    7. Insta-Heal
+    8. Firm Stance
+    
+    With the Omnipotent Orb, Alilat no longer has a weakness.
+    Replace Drain skills with Fortify Spirit and a flex skill.
+        Fortify Spirit gives a 30% evade from ailments if facing an enemy with the same luck.
+            In the best scenearios, it is better to avoid than actually get hit when possible.
+        Flex skill can be anything.
+            I chose Spell Master to help with costs.
+
+4. Physical - Yoshitsune
+    Trait: Undying Fury
+    1. Hassou Tobi
+    2. Regenerate 2
+    3. Regenerate 3
+    4. Arms Master
+    5. Apt Pupil
+    6. Insta-Heal
+    7. Firm Stance
+    8. Drain Curse
+
+    No change.
+
+5. Gun Damage - Arahabaki
+    Trait: Will of the Sword
+    1. Riot Gun
+    2. Gun Boost
+    3. Gun Amp
+    4. Apt Pupil
+    5. Arms Master
+    6. Fortify Spirit
+    7. Insta-Heal
+    8. Firm Stance
+
+    With the Omnipotent Orb, Arahabaki no longer has a weakness.
+    Replace Drain skills with Fortify Spirit.
+        Fortify Spirit gives a 30% evade from ailments if facing an enemy with the same luck.
+            In the best scenearios, it is better to avoid than actually get hit when possible.
+
+6. Gun Critical - Kin-Ki
+    Trait: Vitality of the Tree
+    1. One-Shot Kill
+    2. Apt Pupil
+    3. Trigger Happy
+    4. Adverse Resolve
+    5. Arms Master
+    6. Insta-Heal
+    7. Firm Stance
+    8. Drain Phys
+
+    Replace Drain skills with Firm Stance and Drain Phys.
+
+7. Fire - Kali
+    Trait: Mighty Gaze
+    1. Blazing Hell
+    2. Fire Boost
+    3. Fire Amp
+    4. Magic Ability
+    5. Spell Master
+    6. Insta-Heal
+    7. Firm Stance
+    8. Drain Phys
+
+    Replace Drain Elec with Drain Phys.
+
+8. Ice - Yaksini
+    Trait: Mighty Gaze
+    1. Ice Age
+    2. Ice Boost
+    3. Ice Amp
+    4. Magic Ability
+    5. Spell Master
+    6. Insta-Heal
+    7. Firm Stance
+    8. Drain Phys
+
+    No change in skills.
+
+9. Elec - Mara
+    Trait: Mighty Gaze
+    1. Wild Thunder
+    2. Elec Boost
+    3. Elec Amp
+    4. Magic Ability
+    5. Spell Master
+    6. Insta-Heal
+    7. Firm Stance
+    8. Drain Phys
+
+    No change in skills.
+
+10. Wind - Kaiwan
+    Trait: Mighty Gaze
+    1. Vacuum Wave
+    2. Wind Boost
+    3. Wind Amp
+    4. Magic Ability
+    5. Spell Master
+    6. Insta-Heal
+    7. Firm Stance
+    8. Drain Phys
+
+    No change in skills.
+
+11. Psy - Shiki-Ouji
+    Trait: Mighty Gaze
+    1. Psycho Blast
+    2. Psy Boost
+    3. Psy Amp
+    4. Magic Ability
+    5. Spell Master
+    6. Fortify Spirit
+    7. Insta-Heal
+    8. Firm Stance
+
+    With the Omnipotent Orb, Shiki-Ouji no longer has a weakness.
+    Replace Drain skills with Fortify Spirit.
+        Fortify Spirit gives a 30% evade from ailments if facing an enemy with the same luck.
+            In the best scenearios, it is better to avoid than actually get hit when possible.
+
+12. Nuke - Girimehkala 
+    Trait: Mighty Gaze
+    1. Cosmic Flare
+    2. Nuke Boost
+    3. Nuke Amp
+    4. Magic Ability
+    5. Spell Master
+    6. Fortify Spirit
+    7. Insta-Heal
+    8. Firm Stance
+
+    With the Omnipotent Orb, Girimehkala no longer has a weakness.
+    Replace Drain skills with Fortify Spirit.
+        Fortify Spirit gives a 30% evade from ailments if facing an enemy with the same luck.
+            In the best scenearios, it is better to avoid than actually get hit when possible.
+
+13. Bless - Inugami
+    Trait: Mighty Gaze
+    1. Makaougaon
+    2. Bless Boost
+    3. Bless Amp
+    4. Magic Ability
+    5. Spell Master
+    6. Insta-Heal
+    7. Firm Stance
+    8. Drain Phys
+
+    No change in skills.
+
+14. Curse - Abaddon [Drain Phys/Gun/Curse]
+    Trait: Mighty Gaze
+    1. Maeigaon
+    2. Curse Boost
+    3. Curse Amp
+    4. Magic Ability
+    5. Spell Master
+    6. Fortify Spirit
+    7. Insta-Heal
+    8. Firm Stance
+
+    With the Omnipotent Orb, Abaddon no longer has to worry about Bless insta-kills.
+    Replace Drain skills with Fortify Spirit.
+        Fortify Spirit gives a 30% evade from ailments if facing an enemy with the same luck.
+            In the best scenearios, it is better to avoid than actually get hit when possible.
+
+Elemental Write-Up
+    Check Considerations.
+    With Omnipotent Orb, there is no need to worry over weaknesses.
+        All Personas chosen have innate Null Gun or higher.
+        If the Persona doesn't have an innate Null Phys or higher, give it Drain Phys.
+        Otherwise, give it Fortify Spirit.
+
+15. Buffer/Debuffer - Fafnir
+    Trait: Vitality of the Tree
+    1. Thermopylae
+    2. Debilitate
+    3. Dekaja
+    4. Dekunda
+    5. Spell Master
+    6. Fortify Spirit
+    7. Insta-Heal
+    8. Firm Stance
+
+    With the Omnipotent Orb, Fafnir no longer has to worry about Bless insta-kills.
+    Replace Drain skills with Fortify Spirit.
+        Fortify Spirit gives a 30% evade from ailments if facing an enemy with the same luck.
+            In the best scenearios, it is better to avoid than actually get hit when possible.
+
+16. Starter - Rangda
+    Trait: Will of the Sword
+    1. Charge
+    2. Concentrate
+    3. Auto-Mataru
+    4. Auto-Maraku
+    5. Auto-Masuku
+    6. Fortify Spirit
+    7. Insta-Heal
+    8. Firm Stance
+
+    With the Omnipotent Orb, Rangda no longer has a weakness.
+    Replace Drain skills with Fortify Spirit.
+        Fortify Spirit gives a 30% evade from ailments if facing an enemy with the same luck.
+            In the best scenearios, it is better to avoid than actually get hit when possible.
+
+17. Healer - Maria
+    Trait: Demon's Bite
+    1. Holy Benevolence
+    2. Salvation
+    3. Holy Embrace
+    4. Holy Whisper
+    5. Spell Master
+    6. Insta-Heal
+    7. Firm Stance
+    8. Drain Phys
+
+    Replace Drain Fire with Drain Phys.
+
+18. Hama Insta-Kill - Daisoujou
+    Trait: Omen
+    1. Samsara
+    2. Hama Boost
+    3. Spell Master
+    4. Victory Cry
+    5. Fortify Spirit
+    6. Insta-Heal
+    7. Firm Stance
+    8. Drain Phys
+
+    Replace Drain Curse with Drain Phys.
+
+19. Mudo Insta-Kill - Alice
+    Trait: Omen
+    1. Die for Me!
+    2. Mudo Boost
+    3. Spell Master
+    4. Victory Cry
+    5. Fortify Spirit
+    6. Insta-Heal
+    7. Firm Stance
+    8. Drain Phys
+
+    Replace Drain Bless with Drain Phys.
