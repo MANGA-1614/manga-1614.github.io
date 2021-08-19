@@ -44,29 +44,6 @@
             </ul>
         </li>
     </ul>
-
-<!--
-    <div v-for="(data, id) in build" :key="id">
-        <span> Build {{ id + 1 }}</span>
-        <h1>{{ data.persona }}</h1>
-        <h2>{{ data.role }}</h2>
-        <h3>{{ data.trait }}</h3>
-
-        <h4>Skills</h4>
-        <ul>
-            <li v-for="skill in data.skills" :key="skill.id" id="skills">
-                {{ skill }}
-            </li>
-        </ul>
-
-        <h4>Description</h4>
-        <ul>
-            <li v-for="reason in data.reasons" :key="reason.id" id="desc">
-                {{ reason }}
-            </li>
-        </ul>
-    </div>
--->
 </template>
 
 <script>
@@ -105,7 +82,4 @@
 </script>
 
 <style>
-    #desc {
-        margin-right: 50%;
-    }
 </style>
