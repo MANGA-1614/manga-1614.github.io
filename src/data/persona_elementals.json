@@ -1,0 +1,14 @@
+{
+    "write_up": [
+        ["Best Personas would have Null Phys, Gun, Bless, AND Curse with 1 skill, but have 1 weakness at most.",
+            ["Personas that fulfill this requirement:",
+                ["Abaddon [Drain Phys/Gun/Curse, no weakness] -> Curse"],
+                ["Shiki-Ouji [Null Phys/Gun/Bless/Curse, Nuke weakness] -> Psy"],
+                ["Girimehkala [Repel Phys/Gun, Null Curse, Bless weakness] -> Nuke"],
+                ["Lucifer [Drain Curse, Null Phys/Gun, Bless weakness] -> MT-Almighty"]]],
+        ["Priority:",
+            ["Innate Null Bless AND Null Curse, or higher levels."],
+            ["Innate Null Phys OR Null Gun, or higher levels."],
+            ["One weakness."]]
+    ]
+}

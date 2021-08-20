@@ -38,16 +38,48 @@
             {{ reason[0] }}
 
             <ul>
-                <li v-for="(sub_reason, id) in reason.slice(1)" :key="id">
-                    {{ sub_reason }}
+                <li v-for="(sub_reason, id1) in reason.slice(1)" :key="id1">
+                    {{ sub_reason[0] }}
+
+                    <ul>
+                        <li v-for="(sub_sub_reason, id2) in sub_reason.slice(1)" :key="id2">
+                            {{ sub_sub_reason[0] }}
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </li>
     </ul>
+
+    <div v-if="build.element">
+        <h4>
+            Notes on Elemental Personas
+        </h4>
+
+        <ul>
+            <li v-for="(desc, id1) in element.write_up" :key="id1">
+                {{ desc[0] }}
+
+                <ul>
+                    <li v-for="(sub_desc, id2) in desc.slice(1)" :key="id2">
+                        {{ sub_desc[0] }}
+
+                        <ul>
+                            <li v-for="(sub_sub_desc, id3) in sub_desc.slice(1)" :key="id3">
+                                {{ sub_sub_desc[0] }}
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
 </template>
 
 <script>
-    import build1 from '@/data/persona_builds_no_orb.json'
+    import build1 from '@/data/persona_builds_1.json'
+    import element_desc from '@/data/persona_elementals.json'
     export default {
         name: 'Build 1',
         
@@ -56,6 +88,7 @@
                 //test: "Test",
                 id: 0,
                 build: build1.builds[0],
+                element: element_desc
             }
         },
 
