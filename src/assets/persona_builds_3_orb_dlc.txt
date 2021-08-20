@@ -21,6 +21,7 @@ Roles
     7. Firm Stance
     8. Drain Phys
 
+	Izanagi-no-Okami fulfills both Multi-Target and Single-Target because of its sheer damage.
     Victory Cry can be Spell Master.
         Each skill has different use cases.
         Victory Cry for mob battles, Spell Master for boss encounters.

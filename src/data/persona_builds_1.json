@@ -1,0 +1,455 @@
+{
+    "builds": [
+        {
+            "persona":  "Lucifer",
+            "role":     "MT-Almighty",
+            "trait":    "Mighty Gaze",
+            "skills":   [
+                "Morning Star",
+                "Almighty Boost",
+                "Almighty Amp",
+                "Magic Ability",
+                "Victory Cry",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Bless"
+            ],
+            "reasons":  [
+                ["Mighty Gaze is used since Morning Star targets all enemies."],
+                ["Morning Star is one of the strongest Almighty attacks that targets all enemies."],
+                ["Almighty Boost, Almighty Amp, and Magic Ability are standard damage modifiers for damage-dealing Personas."],
+                ["Victory Cry since it's expected to one-shot all enemies, so the turn ends on Lucifer."],
+                ["Insta-Heal, Firm Stance, and Drain Bless are defensive skills. ",
+                    "However, for this specific role, they are open to anything else since Lucifer is only used for fighting mob enemies, not bosses."]
+            ]
+        },
+
+        {
+            "persona":  "Satanael",
+            "role":     "ST-Almighty",
+            "trait":    "Intense Focus",
+            "skills":   [
+                "Severe Viper",
+                "Almighty Boost",
+                "Almighty Amp",
+                "Magic Ability",
+                "Tyrant's Mind",
+                "Spell Master",
+                "Insta-Heal",
+                "Firm Stance"
+            ],
+            "reasons":  [
+                ["Intense Focus is used since Black Viper targets one enemy.",
+                    "Pagan Allure is capped, so Intense Focus is chosen over it."],
+                ["Black Viper is the strongest Almighty attack that targets one enemy."],
+                ["Almighty Boost, Almighty Amp, and Magic Ability are standard damage modifiers for damage-dealing Personas."],
+                ["Tyrant's Mind is Satanael's unique skill, giving him 1.25x damage that stacks and is not capped."],
+                ["Spell Master is chosen because this build is mostly used against bosses, who are usually alone."],
+                ["Insta-Heal and Firm Stance are defensive skills.",
+                    "Compared to Lucifer's build, this is not open to change.",
+                    "Boss encounters have ailments and large damage.",
+                    "I chose Firm Stance over Ali Dance because I don't like leaving it to chance.",
+                    "I chose Insta-Heal over Fortify Spirit because I don't like leaving it to chance."]
+            ]  
+        },
+
+        {
+            "persona":  "Alilat",
+            "role":     "Ailments",
+            "trait":    "Gloomy Child",
+            "skills":   [
+                "Morning Star",
+                "Almighty Boost",
+                "Almighty Amp",
+                "Magic Ability",
+                "Victory Cry",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Bless"
+            ],
+            "reasons":  [
+                ["Gloomy Child triggers Ambient Aid."],
+                ["Rage lowers defense while Sleep lets any attack trigger a Technical."],
+                ["Ailment Boost and Ambient Aid boosts all hit rates for ailments.",
+                    "Base hit rate for medium-chance is 70%.",
+                    "Ailment Boost is a flat 1.25x.",
+                    "Ambient Aid, under weathe conditions, is a flat 1.3x.",
+                    "Total hit rate is 114%, rounded down to 100%.",
+                    "There is no need for the ailment-specific boosts."],
+                ["Insta-Heal, Firm Stance, Drain Fire, and Drain Curse are defensive skills.",
+                    "I chose Firm Stance over Ali Dance because I don't like leaving it to chance.",
+                    "I chose Insta-Heal over Fortify Spirit because I don't like leaving it to chance."]
+            ]
+        },
+
+        {
+            "persona":  "Yoshitsune",
+            "role":     "Physical", 
+            "trait":    "Undying Fury",
+            "skills":   [
+                "Hassou Tobi",
+                "Regenerate 2",
+                "Regenerate 3",
+                "Arms Master",
+                "Apt Pupil",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Curse"
+            ],
+            "reasons":  [
+                ["Undying Fury gives 1.3x to all Physical skills."],
+                ["Chosen over Will of the Sword because it will deal more damage, even under Charge.",
+                    "1.3 x 2.5 = 3.25 (Undying Fury)",
+                    "1.0 x 3.0 = 3.0 (Will of the Sword)"],
+                ["Regenerate 2, Regenerate 3, and Arms Master deal with Hassou Tobi's 25% HP cost.",
+                    "Regenerate 2:   -4% HP",
+                    "Regenerate 3:   -6% HP",
+                    "Arms Master:    -12.5% HP",
+                    "Total Cost:     25 - 12.5 - 6 - 4 = 2.5%, rounded up to 3%."],
+                ["Apt Pupil raises critical rate."],
+                ["Insta-Heal, Firm Stance, and Drain Curse are defensive skills.",
+                    "I chose Firm Stance over Ali Dance because I don't like leaving it to chance.",
+                    "I chose Insta-Heal over Fortify Spirit because I don't like leaving it to chance.",
+                    "While Yoshitsune isn't weak to Curse, it's possible to die to Mudo-type insta-kills."]                
+            ]
+        },
+
+        {
+            "persona":  "Ongyo-Ki",
+            "role":     "Gun Damage", 
+            "trait":    "Will of the Sword",
+            "skills":   [
+                "Riot Gun",
+                "Gun Boost",
+                "Gun Amp",
+                "Apt Pupil",
+                "Arms Master",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Phys"
+            ],
+            "reasons":  [
+                ["Will of the Sword gives 3.0x when under Charge.",
+                    "Undying Fury does not work with Gun skills."],
+                ["Arms Master deal with Riot Gun's 24% HP cost."],
+                ["Apt Pupil increases critical rate.",
+                    "This theoretically makes Riot Gun a free move."],
+                ["Drain Phys is a defensive skill.",
+                    "Can switch to other defensive skills if another Persona is used."],
+                ["Regenerate skills",
+                    "Since the role is for damage, it is possible to change some skills for all the Regenerate skills,",
+                    "Possible to make Riot Gun a free attack.",
+                        "Arms Master:  -12%",
+                        "Regenerate 1: -2%",
+                        "Regenerate 2: -4%",
+                        "Regenerate 3: -6%",
+                        "Total:        -24%"]
+            ]
+        },
+
+        {
+            "persona":  "Arsene",
+            "role":     "Gun Critical", 
+            "trait":    "Vitality of the Tree",
+            "skills":   [
+                "One-Shot Kill",
+                "Apt Pupil",
+                "Trigger Happy",
+                "Adverse Resolve",
+                "Arms Master",
+                "Insta-Heal",
+                "Drain Ice",
+                "Drain Bless"
+            ],
+            "reasons":  [
+                ["Mainly used for the fight against Lavenza, where we want to hit her with a critical attack.",
+                    "Everything is made to increase the critical rate, even if there is a ceiling of 60%.",
+                    "This is in case if Lavenza has a higher luck stat than 99."],
+                ["Vitality of the Tree triggers Adverse Resolve."],
+                ["One-Shot Kill has the highest critical rate at 30% where Arsene has the same luck as the enemy."],
+                ["Apt Pupil, Trigger Happy, and Adverse Resolve increases critical rate.",
+                    "Apt Pupil increases all critical rates.",
+                    "Trigger Happy increases the critical rate of Gun skills.",
+                    "Adverse Resolve increases all critical rates when ambushed.",
+                        "Works under Vitality of the Tree."],
+                ["Arms Master deals with One-Shot Kill's 17% HP cost."],
+                ["Insta-Heal, Drain Ice, and Drain Bless are defensive skills.",
+                    "I chose Insta-Heal over Fortify Spirit because I don't like leaving it to chance.",
+                    "Since the role of this Persona is to hit critical attacks against Lavenza, it is possible to switch the Drain skills for Gun Boost and Gun Amp."]
+            ]
+        },
+
+        {
+            "persona":  "",
+            "role":     "", 
+            "trait":    "",
+            "skills":   [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "reasons":  [
+                
+            ]
+        },
+
+        {
+            "persona":  "",
+            "role":     "", 
+            "trait":    "",
+            "skills":   [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "reasons":  [
+                
+            ]
+        },
+
+        {
+            "persona":  "",
+            "role":     "", 
+            "trait":    "",
+            "skills":   [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "reasons":  [
+                
+            ]
+        },
+
+        {
+            "persona":  "",
+            "role":     "", 
+            "trait":    "",
+            "skills":   [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "reasons":  [
+                
+            ]
+        },
+
+        {
+            "persona":  "",
+            "role":     "", 
+            "trait":    "",
+            "skills":   [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "reasons":  [
+                
+            ]
+        },
+
+        {
+            "persona":  "",
+            "role":     "", 
+            "trait":    "",
+            "skills":   [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "reasons":  [
+                
+            ]
+        },
+
+        {
+            "persona":  "",
+            "role":     "", 
+            "trait":    "",
+            "skills":   [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "reasons":  [
+                
+            ]
+        },
+
+        {
+            "persona":  "",
+            "role":     "", 
+            "trait":    "",
+            "skills":   [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "reasons":  [
+                
+            ]
+        },
+
+        {
+            "persona":  "Trumpeter",
+            "role":     "Buffer/Debuffer", 
+            "trait":    "Vitality of the Tree",
+            "skills":   [
+                "Thermopylae",
+                "Debilitate",
+                "Dekaja",
+                "Dekunda",
+                "Spell Master",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Phys"
+            ],
+            "reasons":  [
+                ["Vitality of the Tree is chosen over Wealth of Lotus because I want to buff all stats immediately",
+                    "Triggers Thermopylae."],
+                ["Thermopylae over the Ma-kaja skills.",
+                    "I want to buff all stats now.",
+                    "More space for other skills."],
+                ["Debilitate to debuff enemy.",
+                    "Can be switched to Revolution for buffing."],
+                ["Dekaja and Dekunda to take away buffs on enemies and debuffs on the team."],
+                ["Insta-Heal, Firm Stance, and Drain skills are defensive skills."]
+            ]
+        },
+
+        {
+            "persona":  "Michael",
+            "role":     "Starter", 
+            "trait":    "Will of the Sword",
+            "skills":   [
+                "Charge",
+                "Concentrate",
+                "Auto-Mataru",
+                "Auto-Maraku",
+                "Auto-Masuku",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Phys"
+            ],
+            "reasons":  [
+                ["Will of the Sword is bugged to give an Auto-Concentrate."],
+                ["Charge and Concentrate for 2.5x damage for your damage-dealing Persona."],
+                ["Auto-Ma skills since this Persona will always start first."],
+                ["Insta-Heal, Firm Stance, and Drain skills are defensive skills."]
+            ]
+        },
+        
+        {
+            "persona":  "Maria",
+            "role":     "Healer", 
+            "trait":    "Demon's Bite",
+            "skills":   [
+                "Holy Benevolence",
+                "Salvation",
+                "Holy Embrace",
+                "Holy Whisper",
+                "Spell Master",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Fire"
+            ],
+            "reasons":  [
+                ["Trait doubles healing to the player.",
+                    "Works with Holy Embrace and Holy Whisper."],
+                ["Holy Benevolence is one of Maria's unique skills.",
+                    "Best revival skill in the game."],
+                ["Salvation is the best healing skill in the game."],
+                ["Holy Embrace and Holy Whisper are the last of Maria's unique skills.",
+                    "Holy Embrace gives 25% HP per turn.",
+                    "Holy Whisper gives 15% HP and 15 SP per turn.",
+                    "With Demon's Bite, the player heals 80% per turn AND 15 SP.",
+                    "Regenerate 2 and Regenerate 3 can be used for 100% HP heals per turn, but it takes too much space for only 20% HP."],
+                ["Spell Master helps with Salvation's cost."],
+                ["Insta-Heal, Firm Stance, and Drain skills are defensive skills."]
+            ]
+        },
+
+        {
+            "persona":  "Daisoujou",
+            "role":     "Hama Insta-Kill", 
+            "trait":    "Omen",
+            "skills":   [
+                "Samsara",
+                "Hama Boost",
+                "Spell Master",
+                "Victory Cry",
+                "Fortify Spirit",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Bless"
+            ],
+            "reasons":  [
+                ["Omen greatly increases insta-kill hit rates.",
+                    "Chosen over Just Die beacuse Victory cry does the same thing, but better."]
+                
+            ]
+        },
+
+        {
+            "persona":  "Alice",
+            "role":     "Mudo Insta-Kill", 
+            "trait":    "Omen",
+            "skills":   [
+                "Die for Me!",
+                "Mudo Boost",
+                "Spell Master",
+                "Victory Cry",
+                "Fortify Spirit",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Bless"
+            ],
+            "reasons":  [
+                ["Omen greatly increases insta-kill hit rates.",
+                    "Chosen over Just Die beacuse Victory cry does the same thing, but better."]
+                
+            ]
+        }
+    ]
+}
