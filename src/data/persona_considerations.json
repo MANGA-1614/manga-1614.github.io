@@ -1,0 +1,27 @@
+{
+    "considerations": [
+        ["With the Omnipotent Orb, we don't care about the Elemental weaknesses."],
+        ["Due to this, we prioritze innate Null Gun, then Null Phys, or higher."],
+        ["Personas that fulfill this requirement:",
+            ["Null Phys AND Null Gun, or higher:",
+                ["Abaddon      - Curse"],
+                ["Arahabaki    - Gun Damage"],
+                ["Alilat       - Ailments"],
+                ["Fafnir       - Buffer/Debuffer"],
+                ["Girimehkala  - Nuke"],
+                ["Rangda       - Starter"],
+                ["Shiki-Ouji   - Psy"],
+                ["Lucifer      - MT-Almighty"]],
+            ["Null Gun or higher:",
+                ["Kali        - Fire"],
+                ["Kin-Ki      - Gun Critical"],
+                ["Makami"],
+                ["Mara        - Elec"],
+                ["Atavaka"],
+                ["Berith"],
+                ["Dakini"],
+                ["Inugami     - Bless"],
+                ["Kaiwan      - Wind"],
+                ["Yaksini     - Ice"]]]
+    ]
+}

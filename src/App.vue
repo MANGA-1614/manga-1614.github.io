@@ -4,11 +4,13 @@
 
 <script>
 import builds1 from './components/builds_1.vue'
+import builds2 from './components/builds_2.vue'
 
 export default {
   name: 'App',
   components: {
-    builds1
+    builds1,
+    builds2
   }
 }
 </script>

@@ -57,7 +57,7 @@ Roles
     With the Omnipotent Orb, Lucifer no longer has a weakness.
     Replace Drain Bless with Fortify Spirit.
         Fortify Spirit gives a 30% evade from ailments if facing an enemy with the same luck.
-            In the best scenearios, it is better to avoid than actually get hit when possible.
+            In the best scenarios, it is better to avoid than actually get hit when possible.
 
 2. Single-Target Almighty - Satanael
     Trait: Intense Focus

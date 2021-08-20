@@ -1,58 +1,74 @@
 <template>
-    <!--
-        Combine v-if and v-show to hide using ID
-        Have a button go through the list
-    -->
+    <div>
+        <button @click="back()">Back</button>
+        <button @click="next()">Next</button>
+    </div>
 
-    <button @click="back()">Back</button>
-    <button @click="next()">Next</button>
 
-    <h1>
-        {{ build.persona }}
-    </h1>
+    <div id="persona">
+        <b>
+            Persona
+        </b>
 
-    <h2>
-        {{ build.role }}
-    </h2>
+        <h1>
+            {{ build1.persona }}
+        </h1>
+    </div>
 
-    <h3>
-        {{ build.trait }}
-    </h3>
+    <div id="role">
+        <b>
+            Role
+        </b>
 
-    <h4>
-        Skills
-    </h4>
+        <h2>
+            {{ build1.role }}
+        </h2>        
+    </div>
 
-    <ul>
-        <li v-for="skill in build.skills" :key="skill.id" id="skills">
+    <div id="trait">
+        <b>
+            Trait
+        </b>
+
+        <h3>
+            {{ build1.trait }}
+        </h3>        
+    </div>
+
+    <div id="skills">
+        <h4 id="h4_skills">
+            Skills
+        </h4>
+
+        <div id="list_skill" v-for="skill in build1.skills" :key="skill.id">
             {{ skill }}
-        </li>
-    </ul>
+        </div>      
+    </div>
 
-    <h4>
-        Description
-    </h4>
+    <div id="desc">
+        <h4 id="h4_desc">
+            Description
+        </h4>
+        <ul>
+            <li id="list_desc" v-for="reason in build1.reasons" :key="reason.id">
+                {{ reason[0] }}
+                <ul>
+                    <li id="list_sub_desc" v-for="(sub_reason, id1) in reason.slice(1)" :key="id1">
+                        {{ sub_reason[0] }}
 
-    <ul>
-        <li v-for="reason in build.reasons" :key="reason.id" id="reasons">
-            {{ reason[0] }}
+                        <ul>
+                            <li id="list_sub_sub_desc" v-for="(sub_sub_reason, id2) in sub_reason.slice(1)" :key="id2">
+                                    {{ sub_sub_reason[0] }}
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li> 
+        </ul>    
+    </div>
 
-            <ul>
-                <li v-for="(sub_reason, id1) in reason.slice(1)" :key="id1">
-                    {{ sub_reason[0] }}
-
-                    <ul>
-                        <li v-for="(sub_sub_reason, id2) in sub_reason.slice(1)" :key="id2">
-                            {{ sub_sub_reason[0] }}
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
-
-    <div v-if="build.element">
-        <h4>
+    <div id="element" v-if="build1.element">
+        <h4 id="h4_elem">
             Notes on Elemental Personas
         </h4>
 
@@ -78,7 +94,7 @@
 </template>
 
 <script>
-    import build1 from '@/data/persona_builds_1.json'
+    import build_1 from '@/data/persona_builds_1.json'
     import element_desc from '@/data/persona_elementals.json'
     export default {
         name: 'Build 1',
@@ -87,7 +103,7 @@
             return {
                 //test: "Test",
                 id: 0,
-                build: build1.builds[0],
+                build1: build_1.builds[0],
                 element: element_desc
             }
         },
@@ -98,21 +114,65 @@
 
         methods: {
             next() {
-                if (this.id < (build1.builds.length - 1)) {
+                if (this.id < (build_1.builds.length - 1)) {
                     this.id = this.id + 1;
-                    this.build = build1.builds[this.id];
+                    this.build1 = build_1.builds[this.id];
                 }
             },
 
             back() {
                 if (this.id > 0) {
                     this.id = this.id - 1;
-                    this.build = build1.builds[this.id];
+                    this.build1 = build_1.builds[this.id];
                 }
             }
         }
     }
 </script>
 
-<style>
+<style scoped>
+    button {
+        margin-bottom: 3%;
+    }
+
+    h1, h2, h3{
+        /*border: 1px solid red;*/
+        line-height: 20%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    div {
+        text-align: center;
+    }
+
+    ul {
+        list-style-position: inside;
+        margin-top: 0%;
+    }
+
+    li {
+        line-height: 1.5;
+    }
+
+    #h4_skills, #h4_desc, #h4_elem {
+        margin-bottom: 0px;
+    }
+
+    #list_skill {
+        margin: auto;
+        width: 25%;
+    }
+
+    #desc {
+        width: 50%;
+        margin: auto;
+    }
+
+    #list_desc {
+        text-align: left;
+        width: 85%;
+        margin: auto;
+    }
+
 </style>
