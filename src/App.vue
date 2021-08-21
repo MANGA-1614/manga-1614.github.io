@@ -11,6 +11,10 @@ export default {
   components: {
     builds1,
     builds2,
+  },
+
+  created() {
+    document.title = "Persona 5 Royal Builds"
   }
 }
 </script>
