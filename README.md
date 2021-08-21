@@ -25,5 +25,6 @@ $ git status // to see what changes are going to be commited
 $ git commit -m 'Some descriptive commit message'
 $ git push origin master
 
-$ npm run build //Run every time there is a change you want to push live
+$ npm run build // Run every time there is a change you want to push live
+$ git subtree push --prefix dist origin gh-pages // Pushes to the gh-pages branch as a subtree
 ```
