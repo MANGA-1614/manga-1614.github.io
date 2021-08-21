@@ -1,6 +1,7 @@
 {
     "builds": [
         {
+            "id": 0,
             "persona":  "Lucifer",
             "role":     "MT-Almighty",
             "trait":    "Mighty Gaze",
@@ -25,6 +26,7 @@
         },
 
         {
+            "id": 1,
             "persona":  "Satanael",
             "role":     "ST-Almighty",
             "trait":    "Intense Focus",
@@ -54,6 +56,7 @@
         },
 
         {
+            "id": 2,
             "persona":  "Alilat",
             "role":     "Ailments",
             "trait":    "Gloomy Child",
@@ -83,6 +86,7 @@
         },
 
         {
+            "id": 3,
             "persona":  "Yoshitsune",
             "role":     "Physical", 
             "trait":    "Undying Fury",
@@ -115,6 +119,7 @@
         },
 
         {
+            "id": 4,
             "persona":  "Ongyo-Ki",
             "role":     "Gun Damage", 
             "trait":    "Will of the Sword",
@@ -148,6 +153,7 @@
         },
 
         {
+            "id": 5,
             "persona":  "Arsene",
             "role":     "Gun Critical", 
             "trait":    "Vitality of the Tree",
@@ -180,6 +186,7 @@
         },
 
         {
+            "id": 6,
             "persona":  "Zaou-Gongen",
             "role":     "Fire",
             "element":  true, 
@@ -208,6 +215,7 @@
         },
 
         {
+            "id": 7,
             "persona":  "Sandalphon",
             "role":     "Ice", 
             "element":  true, 
@@ -236,6 +244,7 @@
         },
 
         {
+            "id": 8,
             "persona":  "Odin",
             "role":     "Elec", 
             "element":  true, 
@@ -264,6 +273,7 @@
         },
 
         {
+            "id": 9,
             "persona":  "Vishnu",
             "role":     "Wind", 
             "element":  true, 
@@ -292,6 +302,7 @@
         },
 
         {
+            "id": 10,
             "persona":  "Shiki-Ouji",
             "role":     "Psy", 
             "element":  true, 
@@ -320,6 +331,7 @@
         },
 
         {
+            "id": 11,
             "persona":  "Girimehkala",
             "role":     "Nuke", 
             "element":  true, 
@@ -348,6 +360,7 @@
         },
 
         {
+            "id": 12,
             "persona":  "Vonu Manah",
             "role":     "Bless", 
             "element":  true, 
@@ -376,6 +389,7 @@
         },
 
         {
+            "id": 13,
             "persona":  "Abaddon",
             "role":     "Curse", 
             "element":  true, 
@@ -404,6 +418,7 @@
         },
 
         {
+            "id": 14,
             "persona":  "Trumpeter",
             "role":     "Buffer/Debuffer", 
             "trait":    "Vitality of the Tree",
@@ -431,6 +446,7 @@
         },
 
         {
+            "id": 15,
             "persona":  "Michael",
             "role":     "Starter", 
             "trait":    "Will of the Sword",
@@ -453,6 +469,7 @@
         },
         
         {
+            "id": 16,
             "persona":  "Maria",
             "role":     "Healer", 
             "trait":    "Demon's Bite",
@@ -483,6 +500,7 @@
         },
 
         {
+            "id": 17,
             "persona":  "Daisoujou",
             "role":     "Hama Insta-Kill", 
             "trait":    "Omen",
@@ -503,6 +521,7 @@
         },
 
         {
+            "id": 18,
             "persona":  "Alice",
             "role":     "Mudo Insta-Kill", 
             "trait":    "Omen",
