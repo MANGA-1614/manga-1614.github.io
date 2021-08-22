@@ -1,14 +1,17 @@
 <template>
+  <buildselect/>
   <builds1/>
 </template>
 
 <script>
+import buildselect from './components/build_select.vue'
 import builds1 from './components/builds_1.vue'
 import builds2 from './components/builds_2.vue'
 
 export default {
   name: 'App',
   components: {
+    buildselect,
     builds1,
     builds2,
   },

@@ -1,34 +1,47 @@
 <template>
-    <div id="dropdown">
-        <b>Roles</b>
-        <div @click="id_drop(0)">MT-Almighty</div>
-        <div @click="id_drop(1)">ST-Almighty</div>
-        <div @click="id_drop(2)">Ailments</div>
-        <div @click="id_drop(3)">Physical</div>
-        <div @click="id_drop(4)">Gun Damage</div>
-        <div @click="id_drop(5)">Gun Critical</div>
-        <div @click="id_drop(6)">Fire</div>
-        <div @click="id_drop(7)">Ice</div>
-        <div @click="id_drop(8)">Elec</div>
-        <div @click="id_drop(9)">Wind</div>
-        <div @click="id_drop(10)">Psy</div>
-        <div @click="id_drop(11)">Nuke</div>
-        <div @click="id_drop(12)">Bless</div>
-        <div @click="id_drop(13)">Curse</div>
-        <div @click="id_drop(14)">Buffer/Debuffer</div>
-        <div @click="id_drop(15)">Starter</div>
-        <div @click="id_drop(16)">Healer</div>
-        <div @click="id_drop(17)">Hama-Based Insta-Kill</div>
-        <div @click="id_drop(18)">Curse-Based Insta-Kill</div>
-    </div>
+    <!--
+        Bootstrap dropdown here instaed of div lists
+    -->
 
     <div id="build1">
-        <!--
-        <div id="buttons">
-            <button @click="back()">Back</button>
-            <button @click="next()">Next</button>
+        <div id="role">
+            <div class="role_select">
+                <button
+                    class="btn btn-primary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                >
+                    Select Role
+                </button>
+                
+                <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenuButton1">
+                    <li @click="id_drop(0)">MT-Almighty</li>
+                    <li @click="id_drop(1)">ST-Almighty</li>
+                    <li @click="id_drop(2)">Ailments</li>
+                    <li @click="id_drop(3)">Physical</li>
+                    <li @click="id_drop(4)">Gun Damage</li>
+                    <li @click="id_drop(5)">Gun Critical</li>
+                    <li @click="id_drop(6)">Fire</li>
+                    <li @click="id_drop(7)">Ice</li>
+                    <li @click="id_drop(8)">Elec</li>
+                    <li @click="id_drop(9)">Wind</li>
+                    <li @click="id_drop(10)">Psy</li>
+                    <li @click="id_drop(11)">Nuke</li>
+                    <li @click="id_drop(12)">Bless</li>
+                    <li @click="id_drop(13)">Curse</li>
+                    <li @click="id_drop(14)">Buffer/Debuffer</li>
+                    <li @click="id_drop(15)">Starter</li>
+                    <li @click="id_drop(16)">Healer</li>
+                    <li @click="id_drop(17)">Hama-Based Insta-Kill</li>
+                    <li @click="id_drop(18)">Curse-Based Insta-Kill</li>
+                </ul>
+            </div>
+            <h2>
+                {{ build1.role }}
+            </h2>        
         </div>
-        -->
 
         <div id="persona">
             <b>
@@ -38,16 +51,6 @@
             <h1>
                 {{ build1.persona }}
             </h1>
-        </div>
-
-        <div id="role">
-            <b>
-                Role
-            </b>
-
-            <h2>
-                {{ build1.role }}
-            </h2>        
         </div>
 
         <div id="trait">
@@ -197,7 +200,6 @@
 
     #list_skill {
         margin: auto;
-        width: 25%;
     }
 
     #desc {
@@ -215,24 +217,34 @@
         margin: auto;
     }
 
-    #dropdown, #build1 {
-        float: left;
+    #build1 {
+        text-align: center;
+        width: 70%;
+        margin: auto;
     }
 
-    #dropdown {
-        top: 0%;
-        bottom: 0%;
-        position: fixed;
+    .role_select {
+        margin: auto;
+    }
+
+    #role_select > div {
+        margin-top: 5%;
+    }
+
+    ul[aria-labelledby="dropdownMenuButton1"] > li {
         text-align: center;
     }
 
-    #dropdown > div {
-        margin-top: 5%;
-    }
-    
-    #build1 {
-        width: 70%;
-        margin-left: 20%;
+    ul[aria-labelledby="dropdownMenuButton1"] {
+        border: 2px solid red;
     }
 
+    .dropdown-menu-center {
+        left: 50% !important;
+        right: auto !important;
+        margin-top: 68px !important;
+        text-align: center !important;
+        transform: translateX(-50%) !important;
+        position: fixed !important;
+    }
 </style>
