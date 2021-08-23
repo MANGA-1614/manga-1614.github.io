@@ -3,6 +3,8 @@
         Bootstrap dropdown here instaed of div lists
     -->
 
+    <buildselect/>
+
     <div id="build1">
         <div id="role">
             <div class="role_select">
@@ -124,9 +126,14 @@
 <script>
     import build_1 from '@/data/persona_builds_1.json'
     import element_desc from '@/data/persona_elementals.json'
+    import buildselect from '../components/build_select.vue'
     
     export default {
         name: 'Build 1',
+
+        components: {
+            buildselect
+        },
         
         data() {
             return {
