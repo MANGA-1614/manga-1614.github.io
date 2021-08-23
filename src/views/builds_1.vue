@@ -9,7 +9,7 @@
         <div id="role">
             <div class="role_select">
                 <button
-                    class="btn btn-primary dropdown-toggle"
+                    class="btn btn-secondary dropdown-toggle"
                     type="button"
                     id="dropdownMenuButton1"
                     data-bs-toggle="dropdown"
@@ -249,7 +249,7 @@
     .dropdown-menu-center {
         left: 50% !important;
         right: auto !important;
-        margin-top: 68px !important;
+        margin-top: 100px !important;
         text-align: center !important;
         transform: translateX(-50%) !important;
         position: fixed !important;
