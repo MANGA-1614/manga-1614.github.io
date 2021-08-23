@@ -1,19 +1,17 @@
 <template>
-  <buildselect/>
-  <builds1/>
+  <div id="nav">
+    <router-link to="/">Home</router-link>
+    <router-link to="/build/home">Builds</router-link>
+  </div>
+
+  <router-view/>
 </template>
 
 <script>
-import buildselect from './components/build_select.vue'
-import builds1 from './components/builds_1.vue'
-import builds2 from './components/builds_2.vue'
 
 export default {
   name: 'App',
   components: {
-    buildselect,
-    builds1,
-    builds2,
   },
 
   created() {
@@ -30,5 +28,9 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     /*text-align: center;*/
     color: #2c3e50;
+  }
+
+  #nav {
+    text-align: center;
   }
 </style>
