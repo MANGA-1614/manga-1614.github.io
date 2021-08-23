@@ -23,11 +23,14 @@
         Use the button above to select a list, depending on your situation:
     </div>
 
-    <ul>
-        <li>You do not have the Omnipotent Orb nor the paid DLC</li>
-        <li>You have the Omnipotent Orb but not the paid DLC</li>
-        <li>You have the Omnipotent Orb and DLC</li>
-    </ul>
+    <div id="content">
+        <ul>
+            <li>You do not have the Omnipotent Orb nor the paid DLC</li>
+            <li>You have the Omnipotent Orb but not the paid DLC</li>
+            <li>You have the Omnipotent Orb and DLC</li>
+        </ul>
+    </div>
+    
 </template>
 
 <style scoped>
@@ -39,12 +42,14 @@
         margin-top: 5%;
     }
 
-    ul {
-        width: 35%;
-        margin-left: 50%;
-        transform: translateX(-50%);
+    #content {
+        text-align: center;
     }
-    li {
-        text-align:left;
+
+    #content > ul {
+        text-align: left;
+        display:inline-block;
+        zoom:1;
+        *display:inline;
     }
 </style>
