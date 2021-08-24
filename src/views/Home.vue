@@ -3,8 +3,6 @@
         This is the Home page.
     </h1>
 
-    <br>
-
     <h2>Purpose of this site:</h2>
 
     <div>
@@ -22,6 +20,6 @@
     }
 
     h1 {
-        margin-top: 5%;
+        margin-top: 1%;
     }
 </style>
