@@ -1,7 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
+
 import Home from '../views/Home.vue';
+
+import build_home from '../views/build_home';
 import builds1 from '../views/builds_1.vue';
-import build_home from '../views/build_home'
+import builds2 from '../views/builds_2.vue';
 
 //Import new views
 
@@ -22,6 +25,12 @@ const routes = [
         path: '/build/No_Orbs_No_DLC',
         name: 'No_Orbs_No_DLC',
         component: builds1
+    },
+
+    {
+        path: '/build/Orbs_No_DLC',
+        name: 'Orbs_No_DLC',
+        component: builds2
     }
 ]
 

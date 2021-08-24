@@ -18,7 +18,7 @@
                 <router-link to="/build/No_Orbs_No_DLC"> No Omnipotent Orb, No DLC</router-link>
             </li>
             <li>
-                With Omnipotent Orb, No DLC
+                <router-link to="/build/Orbs_No_DLC">With Omnipotent Orb, No DLC</router-link>
             </li>
             <li>
                 With Omnipotent Orb, With DLC
