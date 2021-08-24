@@ -11,9 +11,6 @@
         </button>
 
         <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenuButton1">
-            <!--
-                Vue Routing here
-            -->
             <li>
                 <router-link to="/build/No_Orbs_No_DLC"> No Omnipotent Orb, No DLC</router-link>
             </li>
@@ -21,7 +18,7 @@
                 <router-link to="/build/Orbs_No_DLC">With Omnipotent Orb, No DLC</router-link>
             </li>
             <li>
-                With Omnipotent Orb, With DLC
+                <router-link to="/build/Orbs_DLC">With Omnipotent Orb, With DLC</router-link>
             </li>
         </ul>
     </div>
@@ -35,7 +32,7 @@
     .dropdown-menu-center {
         left: 50% !important;
         right: auto !important;
-        margin-top: 37px !important;
+        top: 37px !important;
         text-align: center !important;
         transform: translateX(-50%) !important;
         position: absolute !important;
