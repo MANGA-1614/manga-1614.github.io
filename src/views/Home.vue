@@ -15,11 +15,5 @@
 </template>
 
 <style scoped>
-    h1, h2, div {
-        text-align: center;
-    }
 
-    h1 {
-        margin-top: 1%;
-    }
 </style>

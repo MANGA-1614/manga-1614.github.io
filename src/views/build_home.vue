@@ -29,16 +29,5 @@
 </script>
 
 <style scoped>
-    h2, div, ul {
-        text-align: center;
-    }
 
-    #content {
-        text-align: center;
-    }
-
-    #content > ul {
-        text-align: left;
-        display:inline-block;
-    }
 </style>

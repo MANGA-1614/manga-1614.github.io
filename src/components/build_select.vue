@@ -25,16 +25,5 @@
 </template>
 
 <style scoped>
-    .dropdown {
-        text-align: center;
-    }
 
-    .dropdown-menu-center {
-        left: 50% !important;
-        right: auto !important;
-        top: 37px !important;
-        text-align: center !important;
-        transform: translateX(-50%) !important;
-        position: absolute !important;
-    }
 </style>
