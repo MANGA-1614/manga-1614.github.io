@@ -4,6 +4,7 @@
             "id": 0,
             "persona":  "Lucifer",
             "role":     "MT-Almighty",
+            "element":  false,
             "trait":    "Mighty Gaze",
             "skills":   [
                 "Morning Star",
@@ -29,6 +30,7 @@
             "id": 1,
             "persona":  "Satanael",
             "role":     "ST-Almighty",
+            "element":  false,
             "trait":    "Intense Focus",
             "skills":   [
                 "Severe Viper",
@@ -59,6 +61,7 @@
             "id": 2,
             "persona":  "Alilat",
             "role":     "Ailments",
+            "element":  false,
             "trait":    "Gloomy Child",
             "skills":   [
                 "Wage War",
@@ -88,7 +91,8 @@
         {
             "id": 3,
             "persona":  "Yoshitsune",
-            "role":     "Physical", 
+            "role":     "Physical",
+            "element":  false, 
             "trait":    "Undying Fury",
             "skills":   [
                 "Hassou Tobi",
@@ -121,7 +125,8 @@
         {
             "id": 4,
             "persona":  "Ongyo-Ki",
-            "role":     "Gun Damage", 
+            "role":     "Gun Damage",
+            "element":  false, 
             "trait":    "Will of the Sword",
             "skills":   [
                 "Riot Gun",
@@ -155,7 +160,8 @@
         {
             "id": 5,
             "persona":  "Arsene",
-            "role":     "Gun Critical", 
+            "role":     "Gun Critical",
+            "element":  false,  
             "trait":    "Vitality of the Tree",
             "skills":   [
                 "One-Shot Kill",
@@ -420,7 +426,8 @@
         {
             "id": 14,
             "persona":  "Trumpeter",
-            "role":     "Buffer/Debuffer", 
+            "role":     "Buffer/Debuffer",
+            "element":  false,  
             "trait":    "Vitality of the Tree",
             "skills":   [
                 "Thermopylae",
@@ -448,7 +455,8 @@
         {
             "id": 15,
             "persona":  "Michael",
-            "role":     "Starter", 
+            "role":     "Starter",
+            "element":  false,  
             "trait":    "Will of the Sword",
             "skills":   [
                 "Charge",
@@ -471,7 +479,8 @@
         {
             "id": 16,
             "persona":  "Maria",
-            "role":     "Healer", 
+            "role":     "Healer",
+            "element":  false,  
             "trait":    "Demon's Bite",
             "skills":   [
                 "Holy Benevolence",
@@ -502,7 +511,8 @@
         {
             "id": 17,
             "persona":  "Daisoujou",
-            "role":     "Hama Insta-Kill", 
+            "role":     "Hama Insta-Kill",
+            "element":  false,  
             "trait":    "Omen",
             "skills":   [
                 "Samsara",
@@ -523,7 +533,8 @@
         {
             "id": 18,
             "persona":  "Alice",
-            "role":     "Mudo Insta-Kill", 
+            "role":     "Mudo Insta-Kill",
+            "element":  false,  
             "trait":    "Omen",
             "skills":   [
                 "Die for Me!",
