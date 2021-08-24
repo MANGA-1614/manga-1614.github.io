@@ -40,6 +40,5 @@
     #content > ul {
         text-align: left;
         display:inline-block;
-        zoom:1;
     }
 </style>
