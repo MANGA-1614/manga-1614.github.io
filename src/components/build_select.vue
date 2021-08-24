@@ -35,9 +35,9 @@
     .dropdown-menu-center {
         left: 50% !important;
         right: auto !important;
-        margin-top: 61px !important;
+        margin-top: 37px !important;
         text-align: center !important;
         transform: translateX(-50%) !important;
-        position: fixed !important;
+        position: absolute !important;
     }
 </style>

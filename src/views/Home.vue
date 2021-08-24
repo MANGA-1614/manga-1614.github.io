@@ -13,43 +13,15 @@
 
     <div>
         Make an easy-to-read website for Persona 5 Royal builds
-    </div>
-
-    <br>
-
-    <h2>To start:</h2>
-
-    <div>
-        Use the button above to select a list, depending on your situation:
-    </div>
-
-    <div id="content">
-        <ul>
-            <li>You do not have the Omnipotent Orb nor the paid DLC</li>
-            <li>You have the Omnipotent Orb but not the paid DLC</li>
-            <li>You have the Omnipotent Orb and DLC</li>
-        </ul>
-    </div>
-    
+    </div>    
 </template>
 
 <style scoped>
-    h1, h2, div, ul {
+    h1, h2, div {
         text-align: center;
     }
 
     h1 {
         margin-top: 5%;
-    }
-
-    #content {
-        text-align: center;
-    }
-
-    #content > ul {
-        text-align: left;
-        display:inline-block;
-        zoom:1;
-        *display:inline;
     }
 </style>

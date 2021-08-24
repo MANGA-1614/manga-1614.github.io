@@ -252,6 +252,6 @@
         margin-top: 100px !important;
         text-align: center !important;
         transform: translateX(-50%) !important;
-        position: fixed !important;
+        position: absolute !important;
     }
 </style>
