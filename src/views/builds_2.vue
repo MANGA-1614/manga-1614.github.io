@@ -1,7 +1,7 @@
 <template>
     <buildselect/>
 
-    <div id="build2">
+    <div id="build">
         <div id="role">
             <div class="role_select">
                 <button
@@ -41,94 +41,22 @@
             </h2>        
         </div>
 
-        <div id="persona">
-            <b>
-                Persona
-            </b>
-
-            <h1>
-                {{ build2.persona }}
-            </h1>
-        </div>
-
-        <div id="trait">
-            <b>
-                Trait
-            </b>
-
-            <h3>
-                {{ build2.trait }}
-            </h3>        
-        </div>
-
-        <div id="skills">
-            <h4 id="h4_skills">
-                Skills
-            </h4>
-
-            <div id="list_skill" v-for="skill in build2.skills" :key="skill.id">
-                {{ skill }}
-            </div>      
-        </div>
-
-        <div id="desc">
-            <h4 id="h4_desc">
-                Description
-            </h4>
-            <ul>
-                <li id="list_desc" v-for="reason in build2.reasons" :key="reason.id">
-                    {{ reason[0] }}
-                    <ul>
-                        <li id="list_sub_desc" v-for="(sub_reason, id1) in reason.slice(1)" :key="id1">
-                            {{ sub_reason[0] }}
-
-                            <ul>
-                                <li id="list_sub_sub_desc" v-for="(sub_sub_reason, id2) in sub_reason.slice(1)" :key="id2">
-                                        {{ sub_sub_reason[0] }}
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li> 
-            </ul>    
-        </div>
-
-        <div id="element" v-if="build2.element">
-            <h4 id="h4_elem">
-                Notes on Elemental Personas
-            </h4>
-
-            <ul>
-                <li id="list_elem" v-for="(desc, id1) in element.write_up" :key="id1">
-                    {{ desc[0] }}
-
-                    <ul>
-                        <li id="list_sub_elem" v-for="(sub_desc, id2) in desc.slice(1)" :key="id2">
-                            {{ sub_desc[0] }}
-
-                            <ul>
-                                <li id="list_sub_sub_elem" v-for="(sub_sub_desc, id3) in sub_desc.slice(1)" :key="id3">
-                                    {{ sub_sub_desc[0] }}
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+        <info :build="build2" :element="element"/>
     </div>
 </template>
 
 <script>
+    import info from '../components/build_info.vue'
     import build_2 from '@/data/persona_builds_2.json'
     import element_desc from '@/data/persona_elementals.json'
     import buildselect from '../components/build_select.vue'
     
     export default {
-        name: 'Build 1',
+        name: 'Build 2',
 
         components: {
-            buildselect
+            buildselect,
+            info
         },
         
         data() {
@@ -168,86 +96,5 @@
 </script>
 
 <style scoped>
-    button {
-        margin-bottom: 3%;
-    }
-
-    h1, h2, h3{
-        /*border: 1px solid red;*/
-        line-height: 20%;
-        margin-top: 2%;
-        margin-bottom: 4%;
-    }
-
-    div {
-        text-align: center;
-    }
-
-    ul {
-        list-style-position: inside;
-        margin-top: 0%;
-    }
-
-    li {
-        line-height: 1.5;
-    }
-
-    #h4_skills, #h4_desc, #h4_elem {
-        margin-bottom: 0px;
-    }
-
-    #persona, #role, #trait, #skills {
-        width: 50%;
-        margin: auto;
-    }
-
-    #list_skill {
-        margin: auto;
-    }
-
-    #desc {
-        width: 50%;
-        margin: auto;
-    }
-
-    #element {
-        width: 75%;
-        margin: auto;
-    }
-
-    #list_desc, #list_elem {
-        text-align: left;
-        margin: auto;
-    }
-
-    #build2 {
-        text-align: center;
-        width: 70%;
-        margin: auto;
-    }
-
-    .role_select {
-        margin: auto;
-    }
-
-    #role_select > div {
-        margin-top: 5%;
-    }
-
-    ul[aria-labelledby="dropdownMenuButton1"] > li {
-        text-align: center;
-    }
-
-    ul[aria-labelledby="dropdownMenuButton1"] {
-        border: 2px solid red;
-    }
-
-    .dropdown-menu-center {
-        left: 50% !important;
-        right: auto !important;
-        margin-top: 100px !important;
-        text-align: center !important;
-        transform: translateX(-50%) !important;
-        position: absolute !important;
-    }
+    @import '../assets/build_css.css'
 </style>
