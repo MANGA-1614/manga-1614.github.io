@@ -1,8 +1,4 @@
 <template>
-    <!--
-        Bootstrap dropdown here instaed of div lists
-    -->
-
     <buildselect/>
 
     <div id="build1">

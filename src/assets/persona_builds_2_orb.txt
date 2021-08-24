@@ -97,9 +97,9 @@ Roles
     3. Regenerate 3
     4. Arms Master
     5. Apt Pupil
-    6. Insta-Heal
-    7. Firm Stance
-    8. Drain Curse
+    6. Fortify Spirit
+    7. Insta-Heal
+    8. Firm Stance
 
     No change.
 
