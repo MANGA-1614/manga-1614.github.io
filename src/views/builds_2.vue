@@ -96,5 +96,5 @@
 </script>
 
 <style scoped>
-    @import '../assets/build_css.css'
+    @import '../assets/build_css.css';
 </style>
