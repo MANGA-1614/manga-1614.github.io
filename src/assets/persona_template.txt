@@ -1,6 +1,8 @@
 {
+    "id":       ,
     "persona":  "",
-    "role":     "", 
+    "role":     "",
+    "element":      , 
     "trait":    "",
     "skills":   [
         "",
