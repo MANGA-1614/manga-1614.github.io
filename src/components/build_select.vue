@@ -1,29 +1,42 @@
 <template>
     <div class="dropdown">
-        <button
-            class="btn btn-primary dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton1"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-        >
-            Select Build List
-        </button>
+        <button @click="toggle()">Select Build List</button>
 
-        <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenuButton1">
-            <li>
-                <router-link to="/build/No_Orbs_No_DLC"> No Omnipotent Orb, No DLC</router-link>
-            </li>
-            <li>
-                <router-link to="/build/Orbs_No_DLC">With Omnipotent Orb, No DLC</router-link>
-            </li>
-            <li>
-                <router-link to="/build/Orbs_DLC">With Omnipotent Orb, With DLC</router-link>
-            </li>
-        </ul>
+        <div id="content" v-show=this.isHidden>
+            <router-link to="/build/No_Orbs_No_DLC"> No Omnipotent Orb, No DLC</router-link>
+            <br>
+            <router-link to="/build/Orbs_No_DLC">With Omnipotent Orb, No DLC</router-link>
+            <br>
+            <router-link to="/build/Orbs_DLC">With Omnipotent Orb, With DLC</router-link>
+        </div>
     </div>
 </template>
 
-<style scoped>
+<script>
+    export default {
+        data() {
+            return {
+                isHidden: false
+            }
+        },
+        
+        methods: {
+            toggle() {
+                this.isHidden = !this.isHidden;
+            }
+        }
+    }
+</script>
 
+<style scoped>
+    div#content {
+        left: 50% !important;
+        right: auto !important;
+        text-align: center !important;
+        transform: translateX(-50%) !important;
+        position: absolute !important;
+        padding: 12px 16px;
+        background-color: white;
+        border: 2px solid red;
+    }
 </style>
