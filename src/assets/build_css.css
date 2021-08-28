@@ -13,6 +13,10 @@ div#role_content, div#build_content {
     border: 2px solid red;
 }
 
+div#role_content {
+    width: 13%;
+}
+
 ul {
     list-style-position: inside;
     margin-top: 0%;
@@ -33,6 +37,8 @@ li {
 
 #list_skill {
     margin: auto;
+    padding-bottom: 2px;
+    
 }
 
 #desc {
@@ -72,4 +78,8 @@ button {
     padding: 16px 32px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+#role_content > span:hover {
+    border: 2px solid red;
 }
