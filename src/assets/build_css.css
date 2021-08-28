@@ -2,6 +2,12 @@ div {
     text-align: center;
 }
 
+button {
+    padding: 16px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 div#role_content, div#build_content {
     left: 50% !important;
     right: auto !important;
@@ -13,8 +19,16 @@ div#role_content, div#build_content {
     border: 2px solid red;
 }
 
+#role_content > span:hover, .build_link:hover {
+    border: 2px solid red;
+}
+
 div#role_content {
-    width: 13%;
+    width: 200px;
+}
+
+div#build_content {
+    width: 250px;
 }
 
 ul {
@@ -71,15 +85,5 @@ ul[aria-labelledby="dropdownMenuButton1"] > li {
 }
 
 ul[aria-labelledby="dropdownMenuButton1"] {
-    border: 2px solid red;
-}
-
-button {
-    padding: 16px 32px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-#role_content > span:hover {
     border: 2px solid red;
 }
