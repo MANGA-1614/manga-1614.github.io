@@ -1,18 +1,8 @@
-button {
-    margin-bottom: 3%;
-}
-
-h1, h2, h3{
-    line-height: 20%;
-    margin-top: 2%;
-    margin-bottom: 4%;
-}
-
 div {
     text-align: center;
 }
 
-div#role_content {
+div#role_content, div#build_content {
     left: 50% !important;
     right: auto !important;
     text-align: center !important;
@@ -78,11 +68,8 @@ ul[aria-labelledby="dropdownMenuButton1"] {
     border: 2px solid red;
 }
 
-.dropdown-menu-center {
-    left: 50% !important;
-    right: auto !important;
-    top: 100px !important;
-    text-align: center !important;
-    transform: translateX(-50%) !important;
-    position: absolute !important;
+button {
+    padding: 16px 32px;
+    border-radius: 8px;
+    cursor: pointer;
 }

@@ -1,8 +1,8 @@
 <template>
     <div class="dropdown">
-        <button @click="toggle()">Select Build List</button>
+        <button @click="toggle()" id="btn_build_list">Select Build List</button>
 
-        <div id="content" v-show=this.isHidden>
+        <div id="build_content" v-show=this.isHidden>
             <router-link to="/build/No_Orbs_No_DLC"> No Omnipotent Orb, No DLC</router-link>
             <br>
             <router-link to="/build/Orbs_No_DLC">With Omnipotent Orb, No DLC</router-link>
@@ -29,14 +29,5 @@
 </script>
 
 <style scoped>
-    div#content {
-        left: 50% !important;
-        right: auto !important;
-        text-align: center !important;
-        transform: translateX(-50%) !important;
-        position: absolute !important;
-        padding: 12px 16px;
-        background-color: white;
-        border: 2px solid red;
-    }
+    @import '../assets/build_css.css';
 </style>
