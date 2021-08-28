@@ -1,0 +1,222 @@
+{
+    "builds": [
+        {
+            "id":       0,
+            "persona":  "Izanagi-no-Okami",
+            "role":     "Almighty",
+            "element":   false, 
+            "trait":    "Country Maker",
+            "skills":   [
+                "Myriad Truths",
+                "Almighty Boost",
+                "Almighty Amp",
+                "Magic Ability",
+                "Victory Cry",
+                "Insta-Heal",
+                "Firm Stance (flex)",
+                "Drain Phys"
+            ],
+            "reasons":  [
+                ["Izanagi-no-Okami fulfills both Multi-Target and Single-Target because of its sheer damage."],
+                ["Victory Cry can be Spell Master.",
+                    ["Each skill has different use cases."],
+                    ["Victory Cry for mob battles, Spell Master for boss encounters."]],
+                ["Firm Stance is a flex skill because of how Country Maker works.",
+                    ["However, it if funny to see the Reaper deal less than 100 damage to the player."]]
+            ]
+        },
+
+        {
+            "id":       1,
+            "persona":  "Raoul",
+            "role":     "Ailment - Sleep and Rage",
+            "element":  false, 
+            "trait":    "Gloomy Child",
+            "skills":   [
+                "Phantom Show",
+                "Wage War",
+                "Ailment Boost",
+                "Ambient Aid",
+                "Spell Master (flex)",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Phys"
+            ],
+            "reasons":  [
+                ["For all of them, Spell Master is a flex because of how cheap Phantom Show is."],
+                ["V1 contains Sleep + Rage for more variations in ailments."]
+            ]
+        },
+
+        {
+            "id":       2,
+            "persona":  "Raoul",
+            "role":     "Ailment - Go Even Further Beyond",
+            "element":  false, 
+            "trait":    "Gloomy Child",
+            "skills":   [
+                "Phantom Show",
+                "Sleep Boost",
+                "Ailment Boost",
+                "Ambient Aid",
+                "Spell Master (flex)",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Phys"
+            ],
+            "reasons":  [
+                ["For all of them, Spell Master is a flex because of how cheap Phantom Show is."],
+                ["V2 forgoes Rage for to go over 100% ailment hit rate.",
+                    ["There is evidence that a high-chance ailment can get to 100% through just Ailment Boost."],
+                    ["However, it assumes the enemy has the same luck as the player."],
+                    ["This build assumes that the enemy has a much higher luck stat than the player."]]
+            ]
+        },
+
+        {
+            "id":       3,
+            "persona":  "Raoul",
+            "role":     "Ailment - Immunity",
+            "element":  false, 
+            "trait":    "Immunity",
+            "skills":   [
+                "Phantom Show",
+                "Sleep Boost",
+                "Ailment Boost",
+                "Spell Master (flex)",
+                "Invigorate (flex)",
+                "Firm Stance",
+                "Enduring Soul (flex)",
+                "Drain Phys"
+            ],
+            "reasons":  [
+                ["For all of them, Spell Master is a flex because of how cheap Phantom Show is."],
+                ["V3 aims for just 100% and uses the empty skills and Trait for defensive skills.",
+                    ["Trait allows immunity to all ailments."],
+                    ["In the off-chance that the enemy has higher luck, Sleep Boost should increase the ailment hit rate."],
+                    ["Invigorate 3 and Enduring Soul are flex skills."]]
+            ]
+        },
+
+        {
+            "id": 4,
+            "persona":  "Asterius",
+            "role":     "Fire",
+            "element":  true, 
+            "trait":    "Mighty Gaze",
+            "skills":   [
+                "Titanomachia",
+                "Fire Boost",
+                "Fire Amp",
+                "Magic Ability",
+                "Spell Master",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Phys"
+            ],
+            "reasons":  [
+                ["Titanomachia is the strongest Fire spell that's even cheaper than Blazing Hell",
+                    ["Also has a high chance to inflict Fear"]],
+                ["Trait is Mighty Gaze.",
+                    ["Triggered by Multi-Targetting attack."],
+                    ["If Single-Target is wanted, switch to Intense Focus."]],
+                ["Severe MT-Elemental",
+                    ["Can switch to ST-Elemental, but the Trait must change."]],
+                ["Elemental Boost, Elemental Amp, and Magic Ability for more damage."],
+                ["Spell Master to deal with attack costs."],
+                ["Insta-Heal, Firm Stance, and Drain skills are defensive skills.",
+                    ["Drain skills are chosen to nullify Phys, even if it has innate Phys."]]
+            ]
+        },
+        
+        {
+            "id": 5,
+            "persona":  "Kaguya",
+            "role":     "Bless", 
+            "element":  true, 
+            "trait":    "Mighty Gaze",
+            "skills":   [
+                "Shining Arrows",
+                "Bless Boost",
+                "Bless Amp",
+                "Magic Ability",
+                "Spell Master",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Phys"
+            ],
+            "reasons":  [
+                ["Shining Arrows is the strongest Bless attack in the game",
+                    ["Dealing 4-8x Bless damage makes Kaguya the Bless version of Yoshitsune."]],
+                ["Trait is Mighty Gaze.",
+                    ["Triggered by Multi-Targetting attack."],
+                    ["If Single-Target is wanted, switch to Intense Focus."]],
+                ["Severe MT-Elemental",
+                    ["Can switch to ST-Elemental, but the Trait must change."]],
+                ["Elemental Boost, Elemental Amp, and Magic Ability for more damage."],
+                ["Spell Master to deal with attack costs."],
+                ["Insta-Heal, Firm Stance, and Drain skills are defensive skills.",
+                    ["Drain skills are chosen to nullify Phys, even if it has innate Phys."]]
+            ]
+        },
+
+        {
+            "id": 6,
+            "persona":  "Tsukuyomi",
+            "role":     "Curse", 
+            "element":  true, 
+            "trait":    "Mighty Gaze",
+            "skills":   [
+                "Abyssal Wings",
+                "Curse Boost",
+                "Curse Amp",
+                "Magic Ability",
+                "Spell Master",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Phys"
+            ],
+            "reasons":  [
+                ["Abyssal Wings is unique to Tsukuyomi.",
+                    ["Abyssal Wings is also the only Severe Bless/Curse attack"]],
+                ["Trait is Mighty Gaze.",
+                    ["Triggered by Multi-Targetting attack."],
+                    ["If Single-Target is wanted, switch to Intense Focus."]],
+                ["Heavy MT-Elemental",
+                    ["Can switch to ST-Elemental, but the Trait must change."]],
+                ["Elemental Boost, Elemental Amp, and Magic Ability for more damage."],
+                ["Spell Master to deal with attack costs."],
+                ["Insta-Heal, Firm Stance, and Drain skills are defensive skills.",
+                    ["Drain skills are chosen to nullify Phys, even if it has innate Phys."]]
+            ]
+        },
+
+        {
+            "id": 7,
+            "persona":  "Orpheus F",
+            "role":     "Buffer/Debuffer",
+            "element":  false,  
+            "trait":    "Wealth of Lotus",
+            "skills":   [
+                "Neo Cadenza",
+                "Debilitate",
+                "Dekaja",
+                "Dekunda",
+                "Spell Master",
+                "Insta-Heal",
+                "Firm Stance",
+                "Drain Phys"
+            ],
+            "reasons":  [
+                ["Neo Cadenza is unique to Orpheus F",
+                    ["It does the same thing as Vitality of the Tree AND Thermopylae combo"],
+                    ["Also heals the team for 50% of their HP"]],
+                ["Debilitate to debuff enemy.",
+                    ["Can be switched to Revolution for buffing."]],
+                ["Dekaja and Dekunda to take away buffs on enemies and debuffs on the team."],
+                ["Insta-Heal, Firm Stance, and Drain skills are defensive skills.",
+                    ["Drain skills are chosen to nullify Phys, even if it has innate Phys."]]
+            ]
+        }
+    ]
+}
