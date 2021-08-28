@@ -48,7 +48,6 @@
                     <span @click="id_drop(17)">Hama-Based Insta-Kill</span>
                     <br>
                     <span @click="id_drop(18)">Curse-Based Insta-Kill</span>
-                    <br>
                 </div>
             </div>
             <h2>
