@@ -1,6 +1,6 @@
 <template>
     <div id="main">
-        <h2>To start:</h2>
+        <h1>To start:</h1>
 
         <div>
             Use the button above to select a list, depending on your situation:
@@ -29,5 +29,20 @@
 </script>
 
 <style scoped>
+    h1, div, ul {
+        text-align: center;
+    }
 
+    h1 {
+        margin-top: 1%;
+    }
+
+    #content {
+        text-align: center;
+    }
+
+    #content > ul {
+        text-align: left;
+        display:inline-block;
+    }
 </style>

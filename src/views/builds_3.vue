@@ -1,46 +1,61 @@
 <template>
     <buildselect/>
 
+    <h2>
+        Omnipotent Orb with DLC
+    </h2>
+
     <div id="build">
         <div id="role">
             <div class="role_select">
-                <button
-                    class="btn btn-secondary dropdown-toggle"
-                    type="button"
-                    id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                >
-                    Select Role
-                </button>
-                
-                <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenuButton1">
-                    <li @click="id_drop(0)">MT-Almighty</li>
-                    <li @click="id_drop(1)">ST-Almighty</li>
-                    <li @click="id_drop(2)">Ailments</li>
-                    <li @click="id_drop(3)">Physical</li>
-                    <li @click="id_drop(4)">Gun Damage</li>
-                    <li @click="id_drop(5)">Gun Critical</li>
-                    <li @click="id_drop(6)">Fire</li>
-                    <li @click="id_drop(7)">Ice</li>
-                    <li @click="id_drop(8)">Elec</li>
-                    <li @click="id_drop(9)">Wind</li>
-                    <li @click="id_drop(10)">Psy</li>
-                    <li @click="id_drop(11)">Nuke</li>
-                    <li @click="id_drop(12)">Bless</li>
-                    <li @click="id_drop(13)">Curse</li>
-                    <li @click="id_drop(14)">Buffer/Debuffer</li>
-                    <li @click="id_drop(15)">Starter</li>
-                    <li @click="id_drop(16)">Healer</li>
-                    <li @click="id_drop(17)">Hama-Based Insta-Kill</li>
-                    <li @click="id_drop(18)">Curse-Based Insta-Kill</li>
-                </ul>
+                <button @click="toggle()">Select Role</button>
+
+                <div id="role_content" v-show=this.isHidden>
+                    <span @click="id_drop(0)">MT-Almighty</span>
+                    <br>
+                    <span @click="id_drop(1)">ST-Almighty</span>
+                    <br>
+                    <span @click="id_drop(2)">Ailments</span>
+                    <br>
+                    <span @click="id_drop(3)">Physical</span>
+                    <br>
+                    <span @click="id_drop(4)">Gun Damage</span>
+                    <br>
+                    <span @click="id_drop(5)">Gun Critical</span>
+                    <br>
+                    <span @click="id_drop(6)">Fire</span>
+                    <br>
+                    <span @click="id_drop(7)">Ice</span>
+                    <br>
+                    <span @click="id_drop(8)">Elec</span>
+                    <br>
+                    <span @click="id_drop(9)">Wind</span>
+                    <br>
+                    <span @click="id_drop(10)">Psy</span>
+                    <br>
+                    <span @click="id_drop(11)">Nuke</span>
+                    <br>
+                    <span @click="id_drop(12)">Bless</span>
+                    <br>
+                    <span @click="id_drop(13)">Curse</span>
+                    <br>
+                    <span @click="id_drop(14)">Buffer/Debuffer</span>
+                    <br>
+                    <span @click="id_drop(15)">Starter</span>
+                    <br>
+                    <span @click="id_drop(16)">Healer</span>
+                    <br>
+                    <span @click="id_drop(17)">Hama-Based Insta-Kill</span>
+                    <br>
+                    <span @click="id_drop(18)">Curse-Based Insta-Kill</span>
+                    <br>
+                </div>
             </div>
             <h2>
                 {{ build2.role }}
             </h2>        
         </div>
-        
+
         <info :build="build2" :element="element"/>
     </div>
 </template>
@@ -52,19 +67,20 @@
     import buildselect from '../components/build_select.vue'
     
     export default {
-        name: 'Build 3',
+        name: 'Build 2',
 
         components: {
             buildselect,
             info
         },
-
+        
         data() {
             return {
                 //test: "Test",
                 id: 0,
                 build2: build_2.builds[0],
-                element: element_desc
+                element: element_desc,
+                isHidden: false
             }
         },
 
@@ -73,23 +89,14 @@
         },
 
         methods: {
-            next() {
-                if (this.id < (build_2.builds.length - 1)) {
-                    this.id = this.id + 1;
-                    this.build2 = build_2.builds[this.id];
-                }
-            },
-
-            back() {
-                if (this.id > 0) {
-                    this.id = this.id - 1;
-                    this.build2 = build_2.builds[this.id];
-                }
+            toggle() {
+                this.isHidden = !this.isHidden;
             },
 
             id_drop(id_drop) {
                 this.id = id_drop;
                 this.build2 = build_2.builds[this.id];
+                this.toggle();
             }
         }
     }

@@ -83,5 +83,50 @@
 </script>
 
 <style scoped>
+    h1, h2, h3{
+        line-height: 20%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    
+    div {
+        text-align: center;
+    }
 
+    ul {
+        list-style-position: inside;
+        margin-top: 0%;
+    }
+
+    li {
+        line-height: 1.5;
+    }
+
+    #h4_skills, #h4_desc, #h4_elem {
+        margin-bottom: 0px;
+    }
+
+    #persona, #role, #trait, #skills {
+        width: 50%;
+        margin: auto;
+    }
+
+    #list_skill {
+        margin: auto;
+    }
+
+    #desc {
+        width: 50%;
+        margin: auto;
+    }
+
+    #element {
+        width: 75%;
+        margin: auto;
+    }
+
+    #list_desc, #list_elem {
+        text-align: left;
+        margin: auto;
+    }
 </style>
